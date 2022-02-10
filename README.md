@@ -1,11 +1,13 @@
 ## Portfolio
 
-Hello, I am Tanvir Rahman and this is my pikachu theme based portfolio website where you can find about me and my projects. This project was
-built using HTML, CSS and Javascript.
+Hello, I am Tanvir Rahman and this is my pikachu theme based portfolio website where you can find about me and my
+projects. This project was built using HTML, CSS and Javascript.
 
-### The website is hosted on
+## Hosting
 
-- Github Page - <a href="https://tanviranindo.me/">tanviranindo.me</a> 
+The website is hosted on
+
+- Github Page - <a href="https://tanviranindo.me/">tanviranindo.me</a>
 
 - Vercel - <a href="https://tanviranindo.vercel.app/">tanviranindo.vercel.app</a>
 
