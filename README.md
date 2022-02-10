@@ -7,7 +7,7 @@ projects. This project was built using HTML, CSS and Javascript.
 
 The website is hosted on
 
-- Github Page - <a href="https://tanviranindo.me/">tanviranindo.me</a>
+- Github Page - <a href="https://tanviranindo.me/">tanviranindo.me</a> or <a href="https://tanviranindo.github.io/">tanviranindo.github.io</a>
 
 - Vercel - <a href="https://tanviranindo.vercel.app/">tanviranindo.vercel.app</a>
 
