@@ -1,3 +1,32 @@
+window.onload = liveModification;
+
+function liveModification() {
+    setTimeout('method()', 1000);
+}
+
+function method() {
+    document.getElementById('pageLocation').innerHTML = "Location : " + window.location.href;
+    const date1 = new Date(document.lastModified);
+    document.getElementById('lastModified').innerHTML = "Modified : " + date1.toLocaleDateString('en-us', {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+    });
+    const date2 = new Date();
+    document.getElementById('time').innerHTML = "Time : " + date2.toLocaleDateString('en-us', {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+    });
+    liveModification();
+}
+
+
 window.addEventListener("scroll", function() {
     const header = document.querySelector("header");
     header.classList.toggle('sticky', window.scrollY > 0);
@@ -33,30 +62,15 @@ scrollBtn.addEventListener("click", () => {
 window.addEventListener("scroll", reveal);
 
 function reveal() {
-    var reveals = document.querySelectorAll(".reveal");
+    const reveals = document.querySelectorAll(".reveal");
 
-    for (var i = 0; i < reveals.length; i++) {
-        var windowHeight = window.innerHeight;
-        var revealTop = reveals[i].getBoundingClientRect().top;
-        var revealPoint = 50;
+    for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const revealTop = reveals[i].getBoundingClientRect().top;
+        const revealPoint = 50;
 
         if (revealTop < windowHeight - revealPoint) {
             reveals[i].classList.add("active");
         }
     }
-}
-
-window.onload = liveModification();
-
-function liveModification() {
-    timeout = setTimeout('method()', 1000)
-}
-
-function method() {
-    document.getElementById('pageLocation').innerHTML = "Location : " + window.location.href;
-    var date1 = new Date(document.lastModified);
-    document.getElementById('lastModified').innerHTML = "Modified : " + date1.toLocaleDateString('en-us', { weekday: "long", year: "numeric", month: "long", day: "numeric" });
-    var date2 = new Date();
-    document.getElementById('time').innerHTML = "Clock : " + date2.toLocaleDateString('en-us', { weekday: "long", year: "numeric", month: "long", day: "numeric", hour: "2-digit", minute: "2-digit", second: "2-digit" });
-    liveModification();
 }

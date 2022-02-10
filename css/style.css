@@ -417,6 +417,11 @@ body {
     background: #000016;
 }
 
+img.animated-gif {
+    width: auto;
+    height: 80px;
+}
+
 .interests-pikachu,
 .contact .content .row .card .info {
     text-align: center;
