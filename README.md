@@ -9,6 +9,8 @@ The website is hosted on
 
 - Github Page - <a href="https://tanviranindo.me/">tanviranindo.me</a> or <a href="https://tanviranindo.github.io/">tanviranindo.github.io</a>
 
+- Netlify - <a href="https://tanviranindo.netlify.app/">tanviranindo.netlify.app</a>
+
 - Vercel - <a href="https://tanviranindo.vercel.app/">tanviranindo.vercel.app</a>
 
 - Ezyro - <a href="http://tanviranindo.ezyro.com/">tanviranindo.ezyro.com</a>
