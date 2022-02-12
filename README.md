@@ -9,6 +9,8 @@ The website is hosted on
 
 - Github Page - <a href="https://tanviranindo.me/">tanviranindo.me</a> or <a href="https://tanviranindo.github.io/">tanviranindo.github.io</a>
 
+- Heroku - <a href="https://tanviranindo.herokuapp.com/">tanviranindo.herokuapp.com</a>
+
 - Netlify - <a href="https://tanviranindo.netlify.app/">tanviranindo.netlify.app</a>
 
 - Vercel - <a href="https://tanviranindo.vercel.app/">tanviranindo.vercel.app</a>
