@@ -7,7 +7,8 @@ projects. This project was built using HTML, CSS and Javascript.
 
 The website is hosted on
 
-- Github Page - <a href="https://tanviranindo.me/">tanviranindo.me</a> or <a href="https://tanviranindo.github.io/">tanviranindo.github.io</a>
+- Github Page - <a href="https://tanviranindo.me/">tanviranindo.me</a> or <a href="https://tanviranindo.github.io/">
+  tanviranindo.github.io</a>
 
 - Heroku - <a href="https://tanviranindo.herokuapp.com/">tanviranindo.herokuapp.com</a>
 
@@ -16,3 +17,13 @@ The website is hosted on
 - Vercel - <a href="https://tanviranindo.vercel.app/">tanviranindo.vercel.app</a>
 
 - Ezyro - <a href="http://tanviranindo.ezyro.com/">tanviranindo.ezyro.com</a>
+
+### Markup Validation
+
+The list of satisfied Strict XHTML 1.0 or (1.1) are 
+
+- [x] Github Page
+- [x] Heroku
+- [x] Netlify
+- [x] Vercel
+- [ ] Ezyro
