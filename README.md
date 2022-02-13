@@ -18,9 +18,9 @@ The website is hosted on
 
 - Ezyro - <a href="http://tanviranindo.ezyro.com/">tanviranindo.ezyro.com</a>
 
-### Markup Validation
+## Markup Validation
 
-The list of satisfied Strict XHTML 1.0 or (1.1) are 
+The list of satisfied Strict XHTML 1.0 or (1.1) hostings are 
 
 - [x] Github Page
 - [x] Heroku
