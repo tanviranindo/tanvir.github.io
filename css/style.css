@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 
-section {
+.section {
     padding: 100px 200px;
 }
 
@@ -91,7 +91,7 @@ section {
     padding: 6px 13px;
 }
 
-header {
+.header {
     align-items: center;
     background: rgba(255, 255, 255, 0.1);
     display: flex;
@@ -105,12 +105,12 @@ header {
     z-index: 999;
 }
 
-header.sticky {
+.header.sticky {
     background: #f6cf57;
     padding: 10px 200px;
 }
 
-header .brand {
+.header .brand {
     color: #fff;
     font-size: 1.8em;
     font-weight: 700;
@@ -118,7 +118,7 @@ header .brand {
     text-transform: uppercase;
 }
 
-header.sticky .brand {
+.header.sticky .brand {
     color: #000;
     font-size: 1.8em;
     font-weight: 700;
@@ -126,19 +126,19 @@ header.sticky .brand {
     text-transform: uppercase;
 }
 
-header .navigation {
+.header .navigation {
     position: relative;
 }
 
-header .navigation ul {
+.header .navigation ul {
     list-style-type: none;
 }
 
-header .navigation li {
+.header .navigation li {
     float: left;
 }
 
-header .navigation a {
+.header .navigation a {
     color: #fff;
     font-size: 1em;
     font-weight: 500;
@@ -146,7 +146,7 @@ header .navigation a {
     text-decoration: none;
 }
 
-header.sticky .navigation a {
+.header.sticky .navigation a {
     color: #000;
     font-size: 1em;
     font-weight: 500;
@@ -154,11 +154,11 @@ header.sticky .navigation a {
     text-decoration: none;
 }
 
-header .navigation a:hover {
+.header .navigation a:hover {
     color: #f6cf57;
 }
 
-header.sticky .navigation a:hover {
+.header.sticky .navigation a:hover {
     color: #fff;
 }
 
@@ -428,16 +428,16 @@ img.animated-gif {
 }
 
 @media (max-width: 1068px) {
-    header {
+    .header {
         padding: 12px 20px;
     }
-    header.sticky {
+    .header.sticky {
         padding: 10px 20px;
     }
-    header .navigation {
+    .header .navigation {
         display: none;
     }
-    header .navigation.active {
+    .header .navigation.active {
         align-items: center;
         background: #fff;
         box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
@@ -449,27 +449,27 @@ img.animated-gif {
         right: 0;
         top: 0;
         transition: 0.3s ease;
-        width: 380px;
+        width: 250px;
         z-index: 888;
     }
-    header .navigation a {
+    .header .navigation a {
         border-radius: 20px;
         color: #000;
         font-size: 1.2em;
         margin: 10px;
         padding: 0 20px;
     }
-    header .navigation li {
+    .header .navigation li {
         float: none;
         padding: 10px 0;
     }
-    header .navigation a:hover {
+    .header .navigation a:hover {
         background: #000;
         color: #fff;
         transition: 0.3s ease;
     }
     .menu-btn {
-        background: url(../images/menu.png);
+        background: url(../images/menu.png) no-repeat;
         background-position: center;
         background-size: 30px;
         cursor: pointer;
@@ -481,14 +481,14 @@ img.animated-gif {
         width: 40px;
     }
     .menu-btn.active {
-        background: url(../images/close.png);
+        background: url(../images/close.png) no-repeat;
         background-position: center;
-        background-size: 40px;
+        background-size: 25px;
         filter: invert(1);
         transition: 0.3s ease;
         z-index: 999;
     }
-    section {
+    .section {
         padding: 80px 20px;
     }
     .main .content h2 {
@@ -590,7 +590,7 @@ table.table-responsive tbody td {
     padding: 20px 10px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     table.table-responsive thead {
         display: none;
     }
@@ -605,18 +605,18 @@ table.table-responsive tbody td {
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
-    padding: 30px 30px 25px;
+    padding: 0 25px 20px;
     white-space: pre-line;
     width: fit-content;
     word-wrap: break-word;
 }
 
-header,
+.header,
 .contact .content :where(i, p, span) {
     color: #202842;
 }
 
-.wrapper header {
+.wrapper .header {
     font-size: 35px;
     font-weight: 600;
     text-align: center;
