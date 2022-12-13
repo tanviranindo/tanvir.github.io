@@ -380,7 +380,7 @@ body {
 .contact .content .row .card .contact-icon {
   font-size: 4em;
   text-align: center;
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
 }
 
 .contact .content .row .card:hover .contact-icon {
